@@ -1,6 +1,5 @@
-if(process.env.NODE_ENV==='production'){
-    module.exports=require('./prod')
-}
-else{
-    module.exports=require('./dev')
-}
+SECRET_KEY="sample_key"
+MONGO_URI="mongodb+srv://tejas:tejas123@cluster0.s4hy1.mongodb.net/"
+CLOUDINARY_CLOUD_NAME =duinaoxbr
+CLOUDINARY_API_KEY=186131795697456
+CLOUDINARY_API_SECRET=rcSvgwvyARbL3qz6-IKp232MC4Y
